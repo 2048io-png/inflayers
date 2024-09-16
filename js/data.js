@@ -91,9 +91,11 @@ function getInitialGenerator (i, j) {
 }
 
 let prestiges = ['Infinity', 'Eternity', 'Reality', 'Equality', "Affinity", "Celerity", "Identity", 
-                "Vitality", "Immunity", "Atrocity", "Divine", "Godly", "Hyperdrive", 
-                "Transcendence", "Omniscience"];
-let metaLevels = ["", "Meta-", "Eta-", "Zeta-", "Omega-"];
+                "Vitality", "Immunity", "Atrocity", "Immensity", "Severity", "Fatality", "Unfunity", 
+                "Insanity", "Calamity", "Finality", "Unity", "Introcity", "Entity", "Radiaty",  
+                "Anonymity", "Rarity", "Difficulty", "Vanity", "Liquefy", "Incentity", "Normality", 
+                "Inceptity", "Instability", "Stability", "Unstability", "Conceptity", "Gravity"];
+let metaLevels = ["", "Meta-", "Exotic-", "Supercritical-", "Instant-", "Mega-", "Astral-"];
 
 function getPrestigeCurrencyName (i) {
   if (i === 0) {
