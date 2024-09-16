@@ -90,8 +90,8 @@ function getInitialGenerator (i, j) {
   }
 }
 
-let prestiges = ['Infinity', 'Eternity', 'Quantum', 'Reality', "Super", "Ultrum", "Holy", 
-                "Cosmic", "Ultimate", "Fundamental", "Divine", "Godly", "Hyperdrive", 
+let prestiges = ['Infinity', 'Eternity', 'Reality', 'Equality', "Affinity", "Celerity", "Identity", 
+                "Vitality", "Immunity", "Atrocity", "Divine", "Godly", "Hyperdrive", 
                 "Transcendence", "Omniscience"];
 let metaLevels = ["", "Meta-", "Eta-", "Zeta-", "Omega-"];
 
