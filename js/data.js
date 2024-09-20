@@ -95,8 +95,9 @@ let prestiges = ['Infinity', 'Eternity', 'Reality', 'Equality', "Affinity", "Cel
                 "Insanity", "Calamity", "Futility", "Finality", "Unity", "Introcity", "Entity", 
                 "Radiaty", "Anonymity", "Rarity", "Difficulty", "Vanity", "Liquefy", "Incentity", 
                 "Normality", "Inceptity", "Instability", "Stability", "Unstability", "Conceptity", 
-                "Gravity", "Lility", "Gracility", "Stackity", "Astrality", "Superity", "Transcity"];
-let metaLevels = ["", "Meta-", "Exotic-", "Supercritical-", "Instant-", "Mega-", "Astral-"];
+                "Gravity", "Lility", "Gracility", "Stackity", "Astrality", "Superity", "Transcity",
+                "Antinity", "Velocity", "Softcapibility", "Unternity", "];
+let metaLevels = ["", "Meta-", "Exotic-", "Supercritical-", "Instant-", "Mega-", "Astral-", "Softcapped ", "Softcapped^2 "];
 
 function getPrestigeCurrencyName (i) {
   if (i === 0) {
