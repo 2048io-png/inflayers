@@ -12,7 +12,7 @@ function format(amount, places=2) {
   if (power >= 1e9)
   {
     let p = Math.floor(Math.log10(power));
-    let suffix = ["k", "m", "g", "t", "p", "e", "z", "y", "r", "q"][Math.floor((p - 9) / 3)];
+    let suffix = ["K", "M", "B", "T", "Qa", "Qt", "Sx", "Sp", "O", "N", "Dc", "UDc", "DDc"][Math.floor((p - 9) / 3)];
     let m = Math.round(Math.pow(10, Math.log10(power) % 3) * 1e6);
     //return "e" + format(new Decimal(amount.log(10)));
     return "e" + formatThousands(m) + suffix;
